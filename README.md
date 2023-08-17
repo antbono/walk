@@ -35,7 +35,7 @@ After sourcing your workspace run:
 ros2 run nao_lola_client nao_lola_client
 ```
 
-Indipendtely from your case, after run the following commands
+Regardless of the case, after run the following commands
 
 Start inverse kinematics of robot:
 ```
