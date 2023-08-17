@@ -19,6 +19,7 @@ colcon build
 
 # Instructions, all in separate terminals
 
+CASE 1 : Simulation
 Start simulator:
 ```
 rcsoccersim3d
@@ -27,6 +28,11 @@ rcsoccersim3d
 Launch NAO in simulator:
 ```
 ros2 run rcss3d_nao rcss3d_nao
+```
+CASE 2 : real nao robot
+After sourcing your workspace run:
+```
+ros2 run nao_lola_client nao_lola_client
 ```
 
 Start inverse kinematics of robot:
