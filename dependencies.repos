@@ -2,4 +2,4 @@ repositories:
   biped_interfaces:
     type: git
     url: https://github.com/ros-sports/biped_interfaces.git
-    verson: rolling
+    version: rolling
